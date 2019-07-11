@@ -6,7 +6,6 @@
 ## Índice
 - [Intro](#intro)
 - [¿Qué necesidad satisface I Film You?](#¿qué-necesidad-satisface-I-Film-You?)
-- [Paso a paso con I Film You](#paso-a-paso-con-I-Film-You)
 - [Historia de usuario](#historia-de-usuario)
 - [Protopersona](#protopersona)
 
