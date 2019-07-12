@@ -1,0 +1,230 @@
+body,html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.firstS {
+  background-attachment: fixed;
+  background-image: url("Images/backgoundbw.png");
+  background-position: center center;
+  background-size: cover;
+  height: 110%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.ifilmyouLogo {
+  display:block;
+  height: 120px;
+  margin: auto;
+  width: 32%;
+}
+.descriptionImage {
+  display:block;
+  margin: auto;
+  margin-top: 15px;
+  height: 110px;
+  width: 60%;
+}
+.questionImage {
+  display:block;
+  margin: auto;
+  margin-bottom: 18px;
+  margin-top: 28px;
+  height: 65px;
+  width: 28%;
+}
+.optionsTable {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+.moodOptions {
+  cursor:pointer;
+  display: inline-block;
+  height: 160px;
+  margin-top: 20px;
+  width: 16%;
+}
+.pageTitle {
+  width: 100%;
+}
+.pagePhrase {
+  display: block;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 42%;
+}
+.backButton {
+  cursor:pointer;
+  float: right;
+  margin-top: 110px;
+  margin-bottom: 15px;
+  margin-right: 8px;
+  width: 8%;
+}
+.happyS,.heartS,.passionS,.randomS {
+  margin-left: 80px;
+  margin-top: 8px;
+}
+.movieCard {
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+.movieCard img {
+  width: 60%;
+  height: 250px;
+}
+
+
+/* Media Queries for a Responsive Web Design accordingly
+to the size (min-width, max-width) of the screen*/
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  .firstS {
+    height: 110%;
+    width: 100%;
+  }
+  .ifilmyouLogo {
+    height:110px;
+    width: 42%;
+  }
+  .descriptionImage {
+    height:120px;
+    width: 60%;
+  }
+  .questionImage {
+    height:48px;
+    width: 30%;
+  }
+  .optionsTable {
+    width: 90%;
+  }
+  .moodOptions {
+    height:130px;
+    width: 16%;
+  }
+  .pageTitle {
+    height: 110px;
+    width: 100%;
+  }
+  .pagePhrase {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .firstS {
+    height: 105%;
+    width: 100%;
+  }
+  .ifilmyouLogo {
+    height:100px;
+    width: 45%;
+  }
+  .descriptionImage {
+    height:100px;
+    width: 70%;
+  }
+  .questionImage {
+    height:50px;
+    width: 45%;
+  }
+  .optionsTable {
+    width: 90%;
+  }
+  .moodOptions {
+    height:130px;
+    width: 20%;
+  }
+  .pageTitle {
+    height: 90px;
+    width: 100%;
+  }
+  .pagePhrase {
+    width: 60%;
+  }
+  .backButton {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .firstS {
+    height: 130%;
+    width: 100%;
+  }
+  .ifilmyouLogo {
+    height:120px;
+    width: 70%;
+  }
+  .descriptionImage {
+    height:120px;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .questionImage {
+    height:60px;
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  .optionsTable {
+    width: 90%;
+  }
+  .moodOptions {
+    height: 180px;
+    width: 42%;
+    margin-bottom: 20px;
+  }
+  .pageTitle {
+    height: 80px;
+    width: 100%;
+  }
+  .pagePhrase {
+    margin:auto;
+    width: 90%;
+  }
+  .backButton {
+    width: 15%;
+  }
+}
+@media screen and (min-height: 1000px) and (max-height: 1370px) {
+  .firstS {
+    height: 134%;
+    width: 100%;
+  }
+  .ifilmyouLogo {
+    height:200px;
+    width: 70%;
+  }
+  .descriptionImage {
+    height:200px;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .questionImage {
+    height:120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+  }
+  .optionsTable {
+    width: 90%;
+  }
+  .moodOptions {
+    height:340px;
+    width: 42%;
+  }
+  .pageTitle {
+    height: 180px;
+    width: 100%;
+  }
+  .pagePhrase {
+    margin:auto;
+    width: 90%;
+  }
+  .backButton {
+    width: 15%;
+  }
+}
