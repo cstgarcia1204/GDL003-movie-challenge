@@ -1,6 +1,5 @@
 # Movie Challenge: I Film You!!!
-![welcome](https://i.ibb.co/ysvHw65/pantalla-Welcome.png
-)
+![welcome](https://i.ibb.co/ysvHw65/pantalla-Welcome.png)
 
 ## Índice
 - [Intro](#intro)
@@ -44,8 +43,8 @@ Le gusta el cine
 
 ## Encuesta Usuario
 
-- [Encuesta](https://es.surveymonkey.com/results/SM-QMPZJLP87/)
-- [Encuesta] (https://es.surveymonkey.com/results/SM-85SP62587/)
+- [Primera encuesta](https://es.surveymonkey.com/results/SM-85SP62587/)
+- [Segunda encuesta](https://es.surveymonkey.com/results/SM-QMPZJLP87/)
 
 ## Prototipo de Baja Fidelidad
 
@@ -59,7 +58,7 @@ Le gusta el cine
 
 ### Integrantes del squad
 
-Cinthia: Funciones y código sección Heart Break, README, encuestas
-Denisse: Funciones y código sección Random, prototipo de alta fidelidad, CSS, encuestas
-Maya: Funciones y código sección Happy, prototipo de alta fidelidad, encuestas
-Celina: Funciones y código sección Passion, README, encuestas
+- Cinthia: Funciones y código sección Heart Break, README, encuestas
+- Denisse: Funciones y código sección Random, prototipo de alta fidelidad, CSS, encuestas
+- Maya: Funciones y código sección Happy, prototipo de alta fidelidad, encuestas
+- Celina: Funciones y código sección Passion, README, encuestas

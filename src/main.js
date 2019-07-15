@@ -13,10 +13,8 @@ const backButton = () =>{
 };
 document.getElementById("backButton").addEventListener("click", backButton);
 
-
 //Happy mood, Show data
-
-const pageForHappyMovies=()=>{ /* This function send me to the HAPPY page*/
+const pageForHappyMovies=()=>{ /* This function is to show the HAPPY section*/
  document.getElementById("firstScreen").style.display = "none";
  document.getElementById('secondScreen').style.display='block';
  document.getElementById("happyPhrase").style.display = "block";
@@ -24,12 +22,13 @@ const pageForHappyMovies=()=>{ /* This function send me to the HAPPY page*/
 };
 document.getElementById('happyButton').addEventListener('click',pageForHappyMovies);
 
-const showHappyMovies=()=>{ /*Esta función me regresa los id's de las películas que quiero obtener*/
+const showHappyMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
  happyMovies.forEach(function(movieId){
  getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
  });
 }
-const getInfoHappyMovies=(movieLink)=>{ /*Esta función me da la info de la API*/
+/*This function bring the API information by FETCH*/
+const getInfoHappyMovies=(movieLink)=>{
  fetch(movieLink)
    .then(function(response){
      return response.json();
@@ -46,10 +45,8 @@ const createMovie=(movie)=>{
 
 }
 
-
-//EMOCION BROKENHEART MUESTRA FRASES RANDOM
-
-const pageForHeartbrokenMovies=()=>{ /*Esta función me manda a la pantalla del modd HEARTBROKEN*/
+//Heart broken  mood, Show data
+const pageForHeartbrokenMovies=()=>{ /*This function is to show the HEART BROKEN section*/
   document.getElementById("firstScreen").style.display = "none";
   document.getElementById('secondScreen').style.display='block';
   document.getElementById("heartPhrase").style.display = "block";
@@ -57,13 +54,14 @@ const pageForHeartbrokenMovies=()=>{ /*Esta función me manda a la pantalla del 
 };
 document.getElementById('heartbrokenButton').addEventListener('click',pageForHeartbrokenMovies);
 
-const showHeartbrokenMovies=()=>{ /*Esta función me regresa los id's de las películas que quiero obtener*/
+const showHeartbrokenMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
  brokenHeartMovieArray.forEach(function(movieTitle){
  getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&t='+movieTitle)
  });
 }
 
-const pageForPassionMovies=()=>{ /*Esta función me manda a la pantalla del modd PASSION*/
+//Passion  mood, Show data
+const pageForPassionMovies=()=>{ /*This function is to show the PASSION section*/
   document.getElementById("firstScreen").style.display = "none";
   document.getElementById('secondScreen').style.display='block';
   document.getElementById("passionPhrase").style.display = "block";
@@ -71,13 +69,14 @@ const pageForPassionMovies=()=>{ /*Esta función me manda a la pantalla del modd
 };
 document.getElementById('passionButton').addEventListener('click',pageForPassionMovies);
 
-const showPassionMovies=()=>{ /*Esta función me regresa los id's de las películas que quiero obtener*/
+const showPassionMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
 passionMovies.forEach(function(movieId){
   getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
 });
 }
 
-const pageForRandomMovies=()=>{ /* This function send me to the HAPPY page*/
+//Random  mood, Show data
+const pageForRandomMovies=()=>{ /* This function is to show the RANDOM section*/
  document.getElementById("firstScreen").style.display = "none";
  document.getElementById('secondScreen').style.display='block';
  document.getElementById("randomPhrase").style.display = "block";
@@ -85,7 +84,7 @@ const pageForRandomMovies=()=>{ /* This function send me to the HAPPY page*/
 };
 document.getElementById('randomButton').addEventListener('click',pageForRandomMovies);
 
-const showRandomMovies=()=>{ /*Esta función me regresa los id's de las películas que quiero obtener*/
+const showRandomMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
  randomMovies.forEach(function(movieId){
  getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
  });
