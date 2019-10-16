@@ -54,7 +54,7 @@ Le gusta el cine
 
 
 ## Prototipo de Alta Fidelidad
-- [Prototipo de Alta Fidelidad](https://www.figma.com/file/gWiY0hP5R89w6PMfOXR1JHhf/Movie-challenge-1?node-id=0%3A1)º
+- [Prototipo de Alta Fidelidad](https://www.figma.com/file/gWiY0hP5R89w6PMfOXR1JHhf/Movie-challenge-1?node-id=0%3A1)
 
 ### Integrantes del squad
 
