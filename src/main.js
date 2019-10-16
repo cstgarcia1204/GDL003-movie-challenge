@@ -14,6 +14,11 @@ const backButton = () =>{
 document.getElementById("backButton").addEventListener("click", backButton);
 
 //Happy mood, Show data
+const showHappyMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
+ happyMovies.forEach(function(movieId){
+ getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
+ });
+}
 const pageForHappyMovies=()=>{ /* This function is to show the HAPPY section*/
  document.getElementById("firstScreen").style.display = "none";
  document.getElementById('secondScreen').style.display='block';
@@ -22,11 +27,7 @@ const pageForHappyMovies=()=>{ /* This function is to show the HAPPY section*/
 };
 document.getElementById('happyButton').addEventListener('click',pageForHappyMovies);
 
-const showHappyMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
- happyMovies.forEach(function(movieId){
- getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
- });
-}
+
 /*This function bring the API information by FETCH*/
 const getInfoHappyMovies=(movieLink)=>{
  fetch(movieLink)
@@ -46,6 +47,13 @@ const createMovie=(movie)=>{
 }
 
 //Heart broken  mood, Show data
+
+const showHeartbrokenMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
+ brokenHeartMovieArray.forEach(function(movieTitle){
+ getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&t='+movieTitle)
+ });
+}
+
 const pageForHeartbrokenMovies=()=>{ /*This function is to show the HEART BROKEN section*/
   document.getElementById("firstScreen").style.display = "none";
   document.getElementById('secondScreen').style.display='block';
@@ -54,13 +62,14 @@ const pageForHeartbrokenMovies=()=>{ /*This function is to show the HEART BROKEN
 };
 document.getElementById('heartbrokenButton').addEventListener('click',pageForHeartbrokenMovies);
 
-const showHeartbrokenMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
- brokenHeartMovieArray.forEach(function(movieTitle){
- getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&t='+movieTitle)
- });
-}
+
 
 //Passion  mood, Show data
+const showPassionMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
+passionMovies.forEach(function(movieId){
+  getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
+});
+}
 const pageForPassionMovies=()=>{ /*This function is to show the PASSION section*/
   document.getElementById("firstScreen").style.display = "none";
   document.getElementById('secondScreen').style.display='block';
@@ -69,13 +78,16 @@ const pageForPassionMovies=()=>{ /*This function is to show the PASSION section*
 };
 document.getElementById('passionButton').addEventListener('click',pageForPassionMovies);
 
-const showPassionMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
-passionMovies.forEach(function(movieId){
-  getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
-});
-}
+
 
 //Random  mood, Show data
+
+const showRandomMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
+ randomMovies.forEach(function(movieId){
+ getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
+ });
+}
+
 const pageForRandomMovies=()=>{ /* This function is to show the RANDOM section*/
  document.getElementById("firstScreen").style.display = "none";
  document.getElementById('secondScreen').style.display='block';
@@ -84,11 +96,7 @@ const pageForRandomMovies=()=>{ /* This function is to show the RANDOM section*/
 };
 document.getElementById('randomButton').addEventListener('click',pageForRandomMovies);
 
-const showRandomMovies=()=>{ /*This function returns the id's of the movies accordingly to the Mood-Array*/
- randomMovies.forEach(function(movieId){
- getInfoHappyMovies('http://www.omdbapi.com/?apikey=64145534&i='+movieId)
- });
-}
+
 
 /*const brokenHeart=()=>{
 
