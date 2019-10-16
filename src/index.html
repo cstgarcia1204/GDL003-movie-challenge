@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Movie Challenge</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="Images/movieicon.ico">
 </head>
 <body>
-    <div id="root"></div>
-
-
-
-    <h1>I Film You!</h1>
-    <section id="firstScreen" class="firstS">
-        <p>You will be able to find the best movie recommendations accordingly to your mood.
-            Avoid those wasted hours trying to decide what to see.
-        </p>
-        <input type="button" id="startHere" class="start" value="START HERE!!!">
+  <section id="firstScreen" class="firstS">
+    <!--Welcome page with description and mood options-->
+    <img class="ifilmyouLogo" src="images/Ifilmyoulogo.png" alt="Logo">
+    <img class="descriptionImage" src="Images/pageDescription.png" alt="Page description">
+    <img class="questionImage" src="Images/moodQuestion1.png" alt="Mood question">
+    <section class="optionsTable">
+      <img class="moodOptions" id="happyButton" src="Images/happyButton.png">
+      <img class="moodOptions" id="heartbrokenButton" src="Images/heartbrokenButton.png">
+      <img class="moodOptions" id="passionButton" src="Images/passionButton.png">
+      <img class="moodOptions" id="randomButton" src="Images/randomButton.png">
     </section>
-    <section id="secondScreen" class="secondS">
-        <p>HOW DO YOU FEEL TODAY???</p>
-        <input type="button" id="happyB" class="happy" value="HAPPY">
-        <input type="button" id="brokenB" class="broken" value="BROKEN HEART">
-        <input type="button" id="passionB" class="passion" value="PASSION">
-        <input type="button" id="randomB" class="random" value="RANDOM">
-
+  </section>
+  <section id="secondScreen" class="secondS">
+    <!--Here should be all the movies that we recommend by mood-->
+    <img class="pageTitle" src="Images/pageTitle.png" alt="Logo">
+    <img class="pagePhrase" id="happyPhrase" src="Images/happyPhrase.png" alt="Mood phrase">
+    <img class="pagePhrase" id="heartPhrase" src="Images/heartPhrase.png" alt="Mood phrase">
+    <img class="pagePhrase" id="passionPhrase" src="Images/passionPhrase.png" alt="Mood phrase">
+    <img class="pagePhrase" id="randomPhrase" src="Images/randomPhrase.png" alt="Mood phrase">
+    <section id="moviesSection">
+      <section id="happyScreen" class="happyS">
+      </section>
+      <section id="heartScreen" class="heartS">
+      </section>
+      <section id="passionScreen" class="passionS">
+      </section>
+      <section id="randomScreen" class="randomS">
+      </section>
     </section>
-    <section id="thirdScreen" class="thirdS">
-            <p>You are in section ....(el mood que hayan seleccionado)</p>
-            <!--aqui deberia ir la pelicula o peliculas principales para recomendar-->
 
-        </section>
-        <input type="button" id="backB" class="back" value="Back">>
-
-    <script src="data.js"></script>
-    <script src="main.js"></script>
+    <img class="backButton" id="backButton" src="Images/backButton3.png" alt="Back Button">
+  </section>
+  <!--Here are the links for the JavaScripts files-->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

@@ -1,7 +1,5 @@
-# Movie Challenge: I Film You!!
-
-![welcome](https://i.ibb.co/ysvHw65/pantalla-Welcome.png
-)
+# Movie Challenge: I Film You!!!
+![welcome](https://i.ibb.co/ysvHw65/pantalla-Welcome.png)
 
 ## Índice
 - [Intro](#intro)
@@ -12,12 +10,13 @@
 - [Encuesta Usuario](#encuesta-usuario)
 - [Prototipo de Baja Fidelidad](#prototipo-de-baja-fidelidad)
 - [Prototipo de Alta Fidelidad](#prototipo-de-alta-fidelidad)
+- [Integrantes del Squad](#integrantes-del-squad)
 
 ---
 
 ## Intro
 
-I Film You es una webApp diseñada para generar recomendaciones de películas basadas en tu estado de ánimo. 
+I Film You es una webApp diseñada para generar recomendaciones de películas basadas en tu estado de ánimo.
 
 
 ## ¿Qué necesidad satisface I Film You?
@@ -28,7 +27,7 @@ Al usar I Film You tendrás de forma rápida, divertida y útil una invitación 
 
 ## Historia de usuario
 
-Nuestro usuario necesita una interfaz donde pueda elegir entre 3 estados de ánimo: happy, heartbroken y passion. Así como una opción random, por si no se siente identificado con ninguno de los estados de ánimo. 
+Nuestro usuario necesita una interfaz donde pueda elegir entre 3 estados de ánimo: happy, heartbroken y passion. Así como una opción random, por si no se siente identificado con ninguno de los estados de ánimo.
 
 ## Protopersona
 
@@ -38,13 +37,14 @@ Actividades y comportamientos:
 
 Está suscrita una plataforma para ver películas en streaming
 
-Pasa su tiempo libre viendo películas 
+Pasa su tiempo libre viendo películas
 
-Le gusta el cine 
+Le gusta el cine
 
 ## Encuesta Usuario
 
-- [Encuesta](https://es.surveymonkey.com/results/SM-QMPZJLP87/)
+- [Primera encuesta](https://es.surveymonkey.com/results/SM-85SP62587/)
+- [Segunda encuesta](https://es.surveymonkey.com/results/SM-QMPZJLP87/)
 
 ## Prototipo de Baja Fidelidad
 
@@ -53,10 +53,12 @@ Le gusta el cine
 ![](https://i.ibb.co/TmH1v0m/prototipo-Baja2.jpg)
 
 
-### Prototipo de Alta Fidelidad
+## Prototipo de Alta Fidelidad
 - [Prototipo de Alta Fidelidad](https://www.figma.com/file/gWiY0hP5R89w6PMfOXR1JHhf/Movie-challenge-1?node-id=0%3A1)
 
+### Integrantes del squad
 
-
-
-
+- Cinthia: Funciones y código sección Heart Break, README, encuestas
+- Denisse: Funciones y código sección Random, prototipo de alta fidelidad, CSS, encuestas
+- Maya: Funciones y código sección Happy, prototipo de alta fidelidad, encuestas
+- Celina: Funciones y código sección Passion, README, encuestas
